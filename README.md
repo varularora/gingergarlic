@@ -1,6 +1,6 @@
-# gg
+# Ginger Garlic
 
-A new Flutter application.
+A open source flutter application for the restarunt management process, development in process.
 
 ## Getting Started
 
