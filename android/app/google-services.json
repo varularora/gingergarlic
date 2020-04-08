@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "203894697055",
+    "firebase_url": "https://ginger-garlic-ceb95.firebaseio.com",
+    "project_id": "ginger-garlic-ceb95",
+    "storage_bucket": "ginger-garlic-ceb95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203894697055:android:642f0b05d578893ea3ffea",
+        "android_client_info": {
+          "package_name": "com.version1.gg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203894697055-nptp9ubevnordr9i6bhsb528u8vjafld.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.version1.gg",
+            "certificate_hash": "d1c0be1a76344ad823b86c30b7fbf01e09ef79cb"
+          }
+        },
+        {
+          "client_id": "203894697055-dldenhglm6vr21ad8gmqmfs6gi53ji0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5Lu4zP83T8-o2bwignZYPcajPjQhuoaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203894697055-dldenhglm6vr21ad8gmqmfs6gi53ji0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
