@@ -48,8 +48,11 @@ class _loginState extends State<login> {
 
       GoogleSignInAccount googleUser = await googleSignIn.signIn();
       GoogleSignInAuthentication googleSignInAuthentication = await googleUser.authentication;
-      FirebaseUser firebaseUser = await firebaseAuth.signInWithGoogle(
+
+      //final AuthCredential credential = await GoogleAuthProvider.getCredential(idToken: googleSignInAuthentication.idToken,accessToken: googleSignInAuthentication.accessToken);
+      FirebaseUser firebaseUser = await firebaseAuth.SignInWithGoogle(
           idToken:googleSignInAuthentication.idToken, accessToken: googleSignInAuthentication.accessToken);
+
 
       if(firebaseUser !=null) {
         final QuerySnapshot result = await Firestore.instance.collection(
