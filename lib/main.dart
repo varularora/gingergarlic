@@ -5,7 +5,8 @@ import 'package:gg/pages/login.dart';
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: login(),
-  ));
+    home: SignInPage()
+  )
+  );
 }
 
