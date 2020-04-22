@@ -1,8 +1,10 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:gg/components/horizontal_listview.dart';
 import 'package:gg/components/products.dart';
 import 'package:gg/pages/cart.dart';
 import 'package:carousel_pro/carousel_pro.dart';
+import 'package:gg/pages/login.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -124,7 +126,18 @@ class _HomePageState extends State<HomePage> {
                   child: ListTile(
                     title: Text('About'),
                     leading: Icon(Icons.help, color: Colors.lightBlueAccent),
-                  )
+                  ),
+              ),
+                  InkWell(
+                  onTap: () {
+                    
+                    FirebaseAuth.instance.signOut();
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => login()));
+                  },
+                      child: ListTile(
+                         title: Text('Log Out'),
+                        leading: Icon(Icons.help, color: Colors.lightBlueAccent),
+                    )
               )
             ],
           ),
